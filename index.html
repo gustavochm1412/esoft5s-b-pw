@@ -72,6 +72,11 @@
       width: 100%;
       display: flex;
       justify-content: space-between; /* Utilizar Flexbox para centralizar o conteúdo do header */
+      align-items: center; /* Alinhar verticalmente os itens */
+    }
+
+    header h1 {
+      margin: 0; /* Remover margem para evitar espaçamento adicional */
     }
 
     /* Lista de navegação */
@@ -83,6 +88,7 @@
       padding: 10px;
       margin-bottom: 20px;
       flex-wrap: wrap; /* Tornar a nav responsiva */
+      justify-content: center; /* Centralizar itens */
     }
 
     nav a {
@@ -102,7 +108,7 @@
 
     #evolucao ul {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       list-style: none;
       flex-wrap: wrap; /* Tornar a lista de evoluções responsiva */
     }
